@@ -16,9 +16,16 @@ export default {
     ]
   },
   /*
+  ** add h.inomata
+  
+  env:{
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+  },
+  */
+  /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#ffffff' },
   /*
   ** Global CSS
   */

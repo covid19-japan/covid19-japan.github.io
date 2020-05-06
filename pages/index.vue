@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        covid19-japan2
+        covid19-japan
       </h1>
       <h2 class="subtitle">
-        My shining Nuxt.js project
+        Tokyo Metropolitan Area
       </h2>
       <div class="links">
         <a
