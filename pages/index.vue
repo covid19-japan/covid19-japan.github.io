@@ -6,7 +6,7 @@
         covid19-japan
       </h1>
       <h2 class="subtitle">
-        Tokyo Metropolitan Area
+        Tokyo Metropolitan Area2
       </h2>
       <div class="links">
         <a
