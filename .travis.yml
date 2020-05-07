@@ -11,17 +11,22 @@ branches:
   - gh-pages
 
 install:
-  - npm install
-  - npm run generate
+  - yarn install
+  - yarn run generate
 
 script:
   - echo "Skipping tests"
 
+root:
+  dist: xenial
+  os: linux
+
 deploy:
+  strategy: git
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_ACCESS_TOKEN
-  target-branch: master
-  local-dir: dist
+  cleanup: true
+  token: $GITHUB_ACCESS_TOKEN
+  target_branch: master
+  local_dir: dist
   on:
     branch: gh-pages
