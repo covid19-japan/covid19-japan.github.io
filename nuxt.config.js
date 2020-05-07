@@ -2,7 +2,7 @@
 // `DEPLOY_ENV` が `MASTER` の場合のみ `router.base = '/<repository-name>/'` を追加する
 const routerBase = process.env.DEPLOY_ENV === 'MASTER' ? {
   router: {
-    base: '/covid19.github.io/'
+    base: '/'
   }
 } : {}
 
