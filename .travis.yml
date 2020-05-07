@@ -11,8 +11,8 @@ branches:
   - gh-pages
 
 install:
-  - yarn install
-  - DEPLOY_ENV=GH_PAGES yarn run generate
+  - npm install
+  - npm run generate
 
 script:
   - echo "Skipping tests"
@@ -24,4 +24,4 @@ deploy:
   target-branch: master
   local-dir: dist
   on:
-    branch: master
+    branch: gh-pages
